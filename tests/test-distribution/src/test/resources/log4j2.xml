@@ -30,8 +30,9 @@
   </Appenders>
 
   <Loggers>
-    <Root level="info">
+    <Root level="debug">
       <AppenderRef ref="file"/>
+      <AppenderRef ref="console"/>
     </Root>
   </Loggers>
 
